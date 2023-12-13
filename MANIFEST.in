@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ambica_test *.css
+recursive-include ambica_test *.csv
+recursive-include ambica_test *.html
+recursive-include ambica_test *.ico
+recursive-include ambica_test *.js
+recursive-include ambica_test *.json
+recursive-include ambica_test *.md
+recursive-include ambica_test *.png
+recursive-include ambica_test *.py
+recursive-include ambica_test *.svg
+recursive-include ambica_test *.txt
+recursive-exclude ambica_test *.pyc
