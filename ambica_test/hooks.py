@@ -215,3 +215,32 @@ app_license = "MIT"
 # auth_hooks = [
 #	"ambica_test.auth.validate"
 # ]
+fixtures = [
+    "Workflow State",
+    "Workflow Action Master",
+    
+    {"dt":"Custom Field","filters":[
+        [
+            "module","in",[
+               "Ambica Test"
+            ]
+        ]
+    ]},
+
+    {"dt":"Report","filters":[
+        [
+            "module","in",[
+                "Ambica Test"
+            ]
+        ]
+    ]},
+    {"dt":"Workflow","filters":[
+        [
+            "name","in",[
+                "For Employee Approval 2",
+                "For Salary Component"
+            ]
+        ]
+    ]},
+
+]
